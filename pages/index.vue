@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
+      <!-- <logo/> -->
       <h1 class="title">
         c7d5a6
       </h1>
@@ -33,6 +33,9 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-image: url(/cat.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .title {
@@ -40,14 +43,14 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: #333333;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #484848;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
