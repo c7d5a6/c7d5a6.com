@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html data-n-head="" data-n-head-ssr>
 
-<head>
+<head lang="en">
   <meta data-n-head="true" charset="utf-8">
   <meta data-n-head="true" content="personal page" name="description" data-hid="description">
   <title data-n-head="true">c7d5a6</title>
   <link href="/favicon.ico" rel="icon" data-n-head="true" type="image/x-icon">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <style data-vue-ssr-id="3266380c:0 670a26ea:0 2eb621c2:0">
     body {
       height: 100%;
@@ -17,6 +16,7 @@
       -webkit-box-pack: center;
       justify-content: center;
       color: #333;
+      margin: 0;
     }
 
     .cover-container {
@@ -26,6 +26,10 @@
     .cover {
       padding: 0 1.5rem;
     }
+
+    *, ::after, ::before {
+    box-sizing: border-box;
+}
 
     html {
       height: 100%;
@@ -38,6 +42,15 @@
       -webkit-font-smoothing: antialiased
     }
 
+    .img-thumbnail {
+        padding: .25rem;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: .25rem;
+        max-width: 100%;
+        height: auto;
+    }
+
     .img-btn {
       border: none;
       max-width: 40px;
@@ -48,6 +61,93 @@
       max-width: 100%;
       height: auto;
     }
+
+    img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+    .text-center {
+      text-align: center!important;
+    }
+
+    .cover-container {
+      max-width: 50em;
+    }
+
+    .d-flex {
+      display: flex!important;
+    }
+
+    .h-100 {
+    height: 100%!important;
+}
+
+.p-3 {
+    padding: 1rem!important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+
+.flex-column {
+    -webkit-box-orient: vertical!important;
+    -webkit-box-direction: normal!important;
+    flex-direction: column!important;
+}
+
+.mb-auto, .my-auto {
+    margin-bottom: auto!important;
+}
+
+.mt-auto, .my-auto {
+    margin-top: auto!important;
+}
+
+.cover {
+    padding: 0 1.5rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
   </style>
 </head>
 
@@ -80,10 +180,6 @@
       </div>
     </footer>
   </div>
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
