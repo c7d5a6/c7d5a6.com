@@ -27,9 +27,16 @@
       padding: 0 1.5rem;
     }
 
-    *, ::after, ::before {
-    box-sizing: border-box;
-}
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    *,
+    ::after,
+    ::before {
+      box-sizing: border-box;
+    }
 
     html {
       height: 100%;
@@ -43,12 +50,12 @@
     }
 
     .img-thumbnail {
-        padding: .25rem;
-        background-color: #fff;
-        border: 1px solid #dee2e6;
-        border-radius: .25rem;
-        max-width: 100%;
-        height: auto;
+      padding: .25rem;
+      background-color: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: .25rem;
+      max-width: 100%;
+      height: auto;
     }
 
     .img-btn {
@@ -63,12 +70,12 @@
     }
 
     img {
-    vertical-align: middle;
-    border-style: none;
-}
+      vertical-align: middle;
+      border-style: none;
+    }
 
     .text-center {
-      text-align: center!important;
+      text-align: center !important;
     }
 
     .cover-container {
@@ -76,78 +83,86 @@
     }
 
     .d-flex {
-      display: flex!important;
+      display: flex !important;
     }
 
     .h-100 {
-    height: 100%!important;
-}
+      height: 100% !important;
+    }
 
-.p-3 {
-    padding: 1rem!important;
-}
+    .p-3 {
+      padding: 1rem !important;
+    }
 
-.ml-auto, .mx-auto {
-    margin-left: auto!important;
-}
+    .ml-auto,
+    .mx-auto {
+      margin-left: auto !important;
+    }
 
-.mr-auto, .mx-auto {
-    margin-right: auto!important;
-}
+    .mr-auto,
+    .mx-auto {
+      margin-right: auto !important;
+    }
 
-.flex-column {
-    -webkit-box-orient: vertical!important;
-    -webkit-box-direction: normal!important;
-    flex-direction: column!important;
-}
+    .flex-column {
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      flex-direction: column !important;
+    }
 
-.mb-auto, .my-auto {
-    margin-bottom: auto!important;
-}
+    .mb-auto,
+    .my-auto {
+      margin-bottom: auto !important;
+    }
 
-.mt-auto, .my-auto {
-    margin-top: auto!important;
-}
+    .mt-auto,
+    .my-auto {
+      margin-top: auto !important;
+    }
 
-.cover {
-    padding: 0 1.5rem;
-}
+    .cover {
+      padding: 0 1.5rem;
+    }
 
-.lead {
-    font-size: 1.25rem;
-    font-weight: 300;
-}
+    .lead {
+      font-size: 1.25rem;
+      font-weight: 300;
+    }
 
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
 
-.btn-group, .btn-group-vertical {
-    position: relative;
-    display: inline-flex;
-    vertical-align: middle;
-}
+    .btn-group,
+    .btn-group-vertical {
+      position: relative;
+      display: inline-flex;
+      vertical-align: middle;
+    }
 
-.btn {
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
+    .btn {
+      display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
 
-
+    .sitelist {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 
@@ -165,7 +180,21 @@ p {
         <img class="img-responsive" src="cat.png" alt="cat">
       </p>
       <h1 class="cover-heading">c7d5a6</h1>
-      <p class="lead">
+      <ul class="sitelist">
+        <li>
+          P&P RPG tools
+          <a class="btn btn-lg" href="https://initiative.owlbeardm.com">
+            <strong>owlbeardm.com</strong>
+          </a>
+        </li>
+        <li>
+          Pathfinder RPG spells
+          <a class="btn btn-lg" href="https://scrollbear.com">
+            <strong>scrollbear.com</strong>
+          </a>
+        </li>
+      </ul>
+      <p class="lead mt-5">
         <div class="btn-group btn-group-justified" role="group" aria-label="...">
           <a href="https://twitter.com/c7d5a6" class="btn btn-lg"><img alt="twitter" src="./img/twitter-logo.svg" class="img-thumbnail img-btn"></a>
           <a href="https://t.me/c7d5a6" class="btn btn-lg"><img alt="telegram" src="./img/telegram.svg" class="img-thumbnail img-btn"></a>
@@ -176,7 +205,7 @@ p {
 
     <footer class="mastfoot mt-auto">
       <div class="inner">
-        <p>2018</p>
+        <p>2018-2019</p>
       </div>
     </footer>
   </div>
